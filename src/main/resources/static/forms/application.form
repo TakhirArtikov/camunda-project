@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "First Name",
+      "type": "textfield",
+      "id": "Field_0gjao6p",
+      "key": "firstName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Last Name",
+      "type": "textfield",
+      "id": "Field_0128op6",
+      "key": "lastName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "IELTS Band Score",
+      "type": "textfield",
+      "id": "Field_1fxvd1i",
+      "key": "ieltsScore",
+      "validate": {
+        "minLength": 3,
+        "maxLength": 3,
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "studentDetails"
+}
