@@ -10,7 +10,7 @@ In this example, I build university application process which consists of three 
 - Taking an exam in a specialty
 - Application result
 
-///// Image 1
+![](img/Image 1.png)
 
 ## What we will need
 
