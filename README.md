@@ -22,7 +22,7 @@ In this example, I build university application process which consists of three 
 
 Run application and enter url http://localhost:8080/camunda/app/welcome/default/#!/welcome in browser and we are in Camunda welcome page.
 
-///// Image 2
+![](img/img2.png)
 
  - Cockpit gives you a real-time view of BPMN processes and DMN decision tables as they run, so you can monitor their status and quickly identify technical incidents that slow down or stop workflows.
  - Tasklist is an out-of-the-box web application that’s tightly integrated with Camunda’s process orchestration capabilities. Simply model a business process using the BPMN standard and deploy it to the Workflow Engine; when a user needs to work on a task, they’ll see it appear in Tasklist.
