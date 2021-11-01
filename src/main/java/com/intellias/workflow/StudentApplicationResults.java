@@ -8,13 +8,8 @@ import javax.inject.Named;
 @Named
 public class StudentApplicationResults implements JavaDelegate {
 
-    static {
-        System.out.println("Hello guys");
-    }
-
     @Override
     public void execute(DelegateExecution delegateExecution) throws Exception {
-        System.out.println("execute");
 
         String firstName = (String) delegateExecution.getVariable("firstName");
         String lastName = (String) delegateExecution.getVariable("lastName");
@@ -31,6 +26,8 @@ public class StudentApplicationResults implements JavaDelegate {
         if(ieltsScore >= 6.5){
 
             String examSubjects = (String) delegateExecution.getVariable("subject");
+
+            System.out.println(examSubjects);
 
             int examScore = (Integer) delegateExecution.getVariable("score");
             if(examScore >= 86){
