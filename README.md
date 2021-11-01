@@ -10,7 +10,7 @@ In this example, I build university application process which consists of three 
 - Taking an exam in a specialty
 - Application result
 
-![](img/Image 1.png)
+![](img/img1.png)
 
 ## What we will need
 
@@ -30,19 +30,19 @@ Run application and enter url http://localhost:8080/camunda/app/welcome/default/
 
 In Tasklist, we start process by clicking "Start process" and we arrive the first stage of the process.
 
-///// Image 3
+![](img/img3.png)
 
 In Cocklist, we can see the process step
 
-///// Image 4
-///// Image 5
+![](img/img4.png)
+![](img/img5.png)
 
 Process stage 2. Exam
 
-///// Image 6
-///// Image 7
+![](img/img6.png)
+![](img/img7.png)
 
 Process stage 3. Application result
 
-///// Image 8
-///// Image 9
+![](img/img8.png)
+![](img/img9.png)
